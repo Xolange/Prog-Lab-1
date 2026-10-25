@@ -138,7 +138,7 @@ int main() {
     cout << "Исходное представление: ";
     printIntBits(static_cast<int>(fb));
 
-    fb = changeBit(fb, 0, 3);
+    fb = changeBit(fb, 1, 3);
     memcpy(&f1, &fb, sizeof(f1));
 
     printFloatBits(f1);
